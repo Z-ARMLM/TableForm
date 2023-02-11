@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+                        
+body{
+background-image:url(/Multimedia/fondo\ \(3\).jpg);
+margin: 0;
+}
+.prof{
+    text-align: center;
+    font-family: 'Langar', cursive;
+}
+.h2{
+    font-family: 'Langar', cursive;
+}
+.card h1{
+    font-family: 'Courgette', cursive; 
+    font-size: 80px;
+    text-align: center;
+}
+
+.card h1:not(.active):hover{
+    background-color: rgb(57, 73, 73);
+    color: white;
+}
+.active{
+    background-color: #9E9E9E;
+    color: white;
+}
+
+.full-content{
+    width: 100%;
+    height: auto;
+}
+.sidebar{
+    width: 25%;
+    height: auto;
+    float: left;
+    background-color: black;
+    text-align: center;
+}
+.sidebar img{
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.btn-container{
+padding: 25px;
+}
+.side-btn{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    background-color: black;
+    display: block;
+    padding: 25px;
+    padding-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 5px;
+    background-color:#990000;
+    font-family: 'Creepster', cursive;    
+
+}
+.side-btn:not(.active):hover{
+    background-color: aqua;
+    color: #990000;
+}
+.content{
+    width: 75%;
+    float: right;
+}
+
+.active{
+    background-color: #9E9E9E;
+    color: white;
+}
+.container{
+    padding-left: 25px;
+}
+.li{
+    padding-top: 0%;
+}
+.card{
+    background-color: #f0fffd;
+    background-image: linear-gradient(0deg, #f0fffd 0%, #ddfcf8 100%);
+ background-color: whitesmoke;
+    padding: 10px 15px;
+    padding-bottom: 25px;
+    margin-bottom: 0%;
+    box-shadow: 0 0 20px 10px rgb(87, 35, 35);
+}
+.profile{
+    width: 250px;
+    padding-left: 40%;
+}
+
+.objetives{
+    padding-top: 40px;
+    font-family: 'Langar', cursive;
+    font-size:40px ;
+    color: darkblue;
+    text-align: center;
+
+}
+.secund{
+   padding-left:40px ;
+    padding-top: 0px;
+    padding-bottom: 0%;
+    font-family: 'Langar', cursive;
+    font-size:40px ;
+    color: darkblue;
+}
+
+.card:hover{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+
+}
+.negr{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left:70px ;
+    padding-top: 10px;
+}
+.ctr{
+    padding-left: 70px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.logos{
+    width:100px;
+    padding: 15px;
+   text-align: center;
+}
+.face{
+    width:100px;
+    padding: 15px;
+    padding-left: 25%;
+   text-align: center;
+}
+.card li{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+footer{
+        background: rgb(255, 67, 67);
+        color: white;
+        text-align: center;
+        line-height: 100px;
+     
+    }
+    
+.btn{
+        padding: 20px;
+        float: center;
+        background-color: #20B2AA;
+        font-family: 'Langar', cursive;
+        font-size: 20px;
+        border-radius: 50px;
+        border: 0px;
+
+  }
+  .boton{
+    text-align: center;
+  }  
+
+
+  .btn:not(.active):hover{
+    background-color: #1a0321;
+    color: #00FA9A;
+    box-shadow: 10px black;
+}
+
+.formu{
+width: 50%;
+}
+.formu input, select{
+    width: 100%;
+    min-height: 15px;
+    padding: 12px 0px;
+    border-radius:7px ;
+    border: 1px solid gainsboro;
+    margin: 6px 0px 16px 0px;
+    resize: vertical;
+    padding-left: 50px;
+    margin-left: 50%;
+
+}
+textarea{
+    width: 100%;
+    padding: 12px 0px;
+    border-radius:7px ;
+    border: 1px solid gainsboro;
+    margin: 6px 0px 16px 0px;
+    resize: vertical; 
+    max-height: 200px;
+    min-height: 200px;
+    margin-left: 50%;
+
+}
+
+label{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-left: 50%;
+
+}
+
+button{
+width: 30%;
+padding: 8px 15px;
+margin: auto;
+align-items: center;
+border: none;
+border-radius: 5px;
+background-color: #1E90FF;
+margin-top: 10px;
+font-size: 15px;
+margin-left: 35%;
+
+}
+
+.card button:not(.active):hover{
+    background-color: rgb(118, 240, 240);
+    color: white;
+}
+.gender{
+padding: 8px 15px;
+padding-left: 0%;
+
+}
+.gender{
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.secund-2{
+    padding-left:40px ;
+     padding-top: 0px;
+     padding-bottom: 0%;
+     font-family: 'Langar', cursive;
+     font-size:40px ;
+     color: darkblue;
+text-align: center;
+    }
+.table-container{
+    width: 60%;
+    float: right;
+}
+.labelgender{
+    width: 50%;
+    padding-left: 150px;
+    float: left;
+} 
+.table-form{
+    width: 100%;
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 7px;
+    max-width: 80%;
+    overflow: scroll;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+td{
+    padding: 5px;
+    border: 1px solid rgb(202, 193, 193);
+    border-radius: 2px;
+    text-align: center;
+}
+
+th{
+    color: white;
+    background-color: black;
+    border-bottom: 4px solid;
+    border-right: 1px solid;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 70px 0px 60px;
+    position: sticky;
+
+}
+
